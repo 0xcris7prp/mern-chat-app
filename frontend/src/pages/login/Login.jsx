@@ -38,7 +38,7 @@ const Login = () => {
             <input type='password' placeholder='Enter your Password' className='w-full input input-bordered h-10 bg-slate-800 text-white'
             value={password} onChange={(e) => setPassword(e.target.value)}/> 
         </div>
-        <Link to={'/signup'} className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block'>
+        <Link to={'/signup'} className='text-sm hover:underline hover:text-blue-600 text-white mt-2 inline-block'>
         Don't have an account?</Link>
         <div>
             <button className='btn btn-block btn-sm mt-2 bg-slate-800 text-white'
